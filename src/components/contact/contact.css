@@ -1,0 +1,105 @@
+#flx{
+    display: flex;
+    column-gap: 10vw;
+}
+
+
+.container .contact__container{
+    width: 58%;
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: 30% 60%; */
+    /* gap: 10%; */
+    /* background-image: url(https://www.google.com/maps/@22.4101854,88.0609489,9z); */
+    
+}
+.contact{
+    background-image: linear-gradient(#0073c5 1.5px, transparent 1.5px), linear-gradient(to right, #0073c5 1.5px, transparent 1.5px);
+        background-size: 31px 31px;
+        background-color: #001524;
+}
+
+.cotact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem; 
+}
+
+.contact__option{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.cotact__option a{
+   margin-top: 0.7rem;
+   display: inline-block;
+   font-size: 0.8rem; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 95%;
+    margin-left: 1rem;
+
+}
+
+input,textarea{
+    width: 100%;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+    font-size: 1rem;
+}
+
+.line{
+    height: 1px;
+    width: 40%;
+    background-color: var(--color-primary-variant);
+    /* display: block; */
+    align-items: center;
+    margin: -3% 30% 5%;
+}
+
+
+@media screen and (max-width: 1024px) {
+.container .contact__container{
+grid-template-columns: 1fr;
+
+gap: 2rem;
+}
+
+#flx {
+    display: grid;
+    column-gap: 10vw;
+}
+} 
+
+@media screen and (max-width: 600px) {
+    .container .contact__container {
+        width: var(--container-width-sm);
+        
+        gap: 2rem;
+    }
+        #flx {
+            display: grid;
+            column-gap: 10vw;
+        }
+}
