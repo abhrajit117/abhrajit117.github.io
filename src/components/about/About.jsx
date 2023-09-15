@@ -37,11 +37,18 @@ const About = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>Swipe Left to know more About Me </SwiperSlide>
-                    <SwiperSlide><div>WEB3 Enthusiast <h6>Currently exploring WEB3 and looking into Solidity, Smart Contracts, ETH & Polygon Blockchain Technologies </h6><a href='$' style={{ color: "#fff" }}>Learn More</a></div></SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
+                    <SwiperSlide><h6>Passionate web developer and UI UX designer with a good understanding of
+                        Current Technologies</h6></SwiperSlide>
+                    <SwiperSlide><h3> Love to design products and features!</h3></SwiperSlide>
+                    <SwiperSlide><h5>Proficient in
+                        a variety of web development frameworks and tools</h5></SwiperSlide>
+                    <SwiperSlide>Quick learner and
+                        eager to take on new challenges</SwiperSlide>
+                    <SwiperSlide><div>WEB3 Enthusiast <h6>Currently exploring WEB3 and looking into Solidity, Smart Contracts, ETH & Polygon Blockchain Technologies </h6>
+                        {/* <a href='$' style={{ color: "#fff" }}>Learn More</a> */}
+
+                    </div></SwiperSlide>
+
                     {/* <SwiperSlide>Slide 7</SwiperSlide>
                     <SwiperSlide>Slide 8</SwiperSlide>
                     <SwiperSlide>Slide 9</SwiperSlide> */}
@@ -69,27 +76,27 @@ const About = () => {
                         <article className='about__card'>
                             <BiCalendarEvent className='about__icon' />
                             <h5>Tech Events</h5>
-                            <small>5+ Tech events attended in 2022</small>
+                            <small>5+ Tech events orgaised and Hosted across India <br />(Google Events and Hackathons)</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Experience</h5>
-                            <small>3+ years of coding and 1+ years of product management experiences </small>
+                            <small>3+ years of coding and 1+ years of product management experiences.Worked with various Startups. </small>
                         </article>
                         <article className='about__card'>
                             <AiOutlineFundProjectionScreen className='about__icon' />
                             <h5>Projects</h5>
-                            <small>20+ Projects completed in various domains</small>
+                            <small>20+ Projects completed successfully in various domains</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Networks & Connections</h5>
-                            <small>200+ Connections made during networking</small>
+                            <small>Network is Net Worth, the rest you can understand!</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
-                            <small>200+ users</small>
+                            <small>10+ happy Clients</small>
                         </article>
                         <article className='about__card'>
                             <FaGuitar className='about__icon' />
@@ -98,13 +105,12 @@ const About = () => {
                         </article>
 
                     </div>
-                    <p>lorem ipsum In this practical react js project tutorial, I'm going to teach you,
-                        step-by-step, how to create and deploy a fully responsive personal portfolio website from scratch!
-                        By the end of this video, you will know how to create a react app from scratch,
-                        how to use the react icons library in your react projects, how to use react useState hooks,
-                        how to build modern website designs with CSS3, how to use SwiperJS (to create carousels/slides)
-                        in your react projects, how to add multiple contact options on your website
-                        (WhatsApp, Facebook Messenger, and Direct form submission using EmailJS), and more!
+                    <p>I'm a student of Computer Science and Business Systems,
+                        doubling as a freelance web developer. My expertise lies in crafting user-friendly
+                        websites, blending cutting-edge tech with sleek design. Proficient in HTML, CSS,
+                        JavaScript, React, Next etc. I adapt to project needs. Committed to staying current,
+                        I aim to surpass client expectations. Let's work together to
+                        bring your digital vision to life.
                     </p>
                     <a href='#contact' className='btn btn-primary'>Let's Conect</a>
 

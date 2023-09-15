@@ -4,7 +4,8 @@ import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
 
-
+import { FiPhoneIncoming } from 'react-icons/fi'
+import { FaMapLocationDot } from 'react-icons/fa6'
 import { MdOutlineEmail } from 'react-icons/md'
 const Contact = () => {
 
@@ -25,21 +26,21 @@ const Contact = () => {
 
             <div id="flx" className='container contact__container'>
                 <div className='contact__options'>
-                    <article className='contact_option'>
-                        <MdOutlineEmail className='contact__option-icon' />
-                        <h4>Email</h4>
-                        <h5>contact.abhrajitghosh@gmail.com</h5>
-                        <a href='mailto:contact.abhrajitghosh@gmail.com'>Send a message</a>
+                    <article className='contact__option'>
+                        <FaMapLocationDot className='contact__option-icon' />
+                        <h4>Location</h4>
+                        <h5>West Bengal, India</h5>
+                        <a href='mailto:contact.abhrajitghosh@gmail.com'>Let's Connect</a>
                     </article>
 
-                    <article className='contact_option'>
-                        <MdOutlineEmail className='contact__option-icon' />
-                        <h4>Email</h4>
-                        <h5>contact.abhrajitghosh@gmail.com</h5>
-                        <a href='mailto:contact.abhrajitghosh@gmail.com'>Send a message</a>
+                    <article className='contact__option'>
+                        <FiPhoneIncoming className='contact__option-icon' />
+                        <h4>Phone</h4>
+                        <h5>+91 XXXXXX XXXXX</h5>
+                        <a href='mailto:contact.abhrajitghosh@gmail.com'>Schedule a Call</a>
                     </article>
 
-                    <article className='contact_option'>
+                    <article className='contact__option'>
                         <MdOutlineEmail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>contact.abhrajitghosh@gmail.com</h5>

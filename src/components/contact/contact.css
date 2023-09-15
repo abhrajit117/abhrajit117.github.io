@@ -11,7 +11,8 @@
     /* grid-template-columns: 30% 60%; */
     /* gap: 10%; */
     /* background-image: url(https://www.google.com/maps/@22.4101854,88.0609489,9z); */
-    
+    justify-content: center;
+    align-items: center;
 }
 .contact{
     background-image: linear-gradient(#0073c5 1.5px, transparent 1.5px), linear-gradient(to right, #0073c5 1.5px, transparent 1.5px);
@@ -22,7 +23,9 @@
 .cotact__options{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem; 
+    gap: 2.2rem; 
+    justify-content: center;
+    align-items: center;
 }
 
 .contact__option{
@@ -32,6 +35,11 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
 }
 
 .contact__option:hover{
@@ -47,6 +55,8 @@
    margin-top: 0.7rem;
    display: inline-block;
    font-size: 0.8rem; 
+   color: #ffffff;
+   background-color: #ffffff;
 }
 
 form{

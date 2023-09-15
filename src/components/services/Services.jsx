@@ -13,33 +13,29 @@ const Services = () => {
 
                 <article className='services'>
                     <div className='service__head'>
-                        <h3>ui ux design</h3>
+                        <h3>SEO Optimisation</h3>
                     </div>
 
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Content Quality and Relevance</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Keyword Research and Optimization </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>AI-Enhanced Analytics</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Structured Data Markup  </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Competitor Analysis and Predictive SEO </p>
                         </li>
                     </ul>
                 </article>
@@ -50,34 +46,28 @@ const Services = () => {
 
                 <article className='services'>
                     <div className='service__head'>
-                        <h3>ui ux design</h3>
+                        <h3>WEB Solutions</h3>
                     </div>
 
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Web design & E-commerce solutions </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Well maintenance and 24x7 support</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Responsive and optimied </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Easily Customisable </p>
                         </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
-                        </li>
+
+
                     </ul>
                 </article>
 
@@ -88,34 +78,31 @@ const Services = () => {
 
                 <article className='services'>
                     <div className='service__head'>
-                        <h3>ui ux design</h3>
+                        <h3>Market Strategy Analysis</h3>
                     </div>
 
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Identifying competitor</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Product indepth Analysis</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>User Requirements Analysis </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Branding and promotion</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
+                            <p>Increase Sales </p>
                         </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>lorem ipsum bla bla bla will update later </p>
-                        </li>
+
                     </ul>
                 </article>
             </div>

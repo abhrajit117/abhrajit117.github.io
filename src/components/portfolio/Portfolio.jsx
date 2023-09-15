@@ -1,38 +1,38 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/dlabs.PNG'
+import IMG2 from '../../assets/connectapp.PNG'
 import IMG3 from '../../assets/spotify.PNG'
 import IMG4 from '../../assets/piano.PNG'
 import IMG5 from '../../assets/tictactoe.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/brocode.PNG'
 
 const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Its just a demo',
+        title: 'Ecommerce Site (DimensionLabs)',
         github: 'https://github.com',
-        demo: 'https://facebook.com'
+        demo: 'https://dimensionlabs.in'
     },
     {
         id: 1,
         image: IMG2,
-        title: 'Its just a demo',
-        github: 'https://github.com',
-        demo: 'https://facebook.com'
+        title: 'Social Media app Conncect',
+        github: 'https://github.com/abhrajit117/Diversion2k23',
+        demo: 'https://diversion2k23.vercel.app/'
     },
     {
         id: 1,
         image: IMG3,
         title: 'Spotify Clone',
         github: 'https://github.com/abhrajit117/spotify',
-        demo: 'https://abhrajit.engineer/spotify/'
+        demo: 'https://spotify-rust-three.vercel.app/'
     },
     {
         id: 1,
         image: IMG4,
-        title: 'Hi-Piano',
+        title: 'Hi-Piano, An virtual responsive piano for music Lovers',
         github: 'https://github.com/abhrajit117/Hi-Piano',
         demo: 'https://abhrajit.engineer/Hi-Piano/'
     },
@@ -46,9 +46,9 @@ const data = [
     {
         id: 1,
         image: IMG6,
-        title: 'Its just a demo',
-        github: 'https://github.com',
-        demo: 'https://facebook.com'
+        title: 'Brocode.js, A Typescrip library for colourful Texts',
+        github: 'https://github.com/abhrajit117/brocode.js',
+        demo: 'https://www.npmjs.com/package/brocode.js'
     }
 
 

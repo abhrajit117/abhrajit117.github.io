@@ -13,6 +13,7 @@ import Footer from './components/footer/Footer'
 import { useState, useEffect } from 'react'
 import { ClimbingBoxLoader } from 'react-spinners'
 import './loader.css'
+import Gallery from './components/Gallery/Gallery'
 const App = () => {
 
     const [loading, setLoading] = useState(false)
@@ -39,7 +40,8 @@ const App = () => {
                         <Experience />
                         <Services />
                         <Portfolio />
-                        <Testimonials />
+                        {/* <Testimonials /> */}
+                        <Gallery />
                         <Contact />
                         <Footer />
                     </>
